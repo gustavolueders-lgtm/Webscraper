@@ -1,0 +1,242 @@
+name,address,category,place_id,cell_lat,cell_lon,scraped_at
+Posto Sul,"Rodovia Principal, 5167 - Florianópolis, SC",Gas Station,sc_florianópolis_0_5095,-27.599136144341717,-48.55838793630584,2025-10-07T11:26:34.066642
+Posto Petrobras Florianópolis 2,"Rodovia Central, 2713 - Florianópolis, SC",Gas Station,sc_florianópolis_1_3524,-27.585564841976794,-48.552837840801,2025-10-07T11:26:34.066802
+Posto Shell Florianópolis 3,"Rodovia Principal, 9639 - Florianópolis, SC",Gas Station,sc_florianópolis_2_2982,-27.5760940510847,-48.5610326384433,2025-10-07T11:26:34.066875
+Posto Ale Florianópolis 4,"Rodovia Beira Rio, 4550 - Florianópolis, SC",Gas Station,sc_florianópolis_3_883,-27.605702626834077,-48.54172448943094,2025-10-07T11:26:34.066950
+Posto Petrobras Florianópolis 5,"Rodovia da Independência, 5420 - Florianópolis, SC",Gas Station,sc_florianópolis_4_4371,-27.59369610638058,-48.56454780289626,2025-10-07T11:26:34.067032
+Posto Ale Florianópolis 6,"Avenida dos Pioneiros, 5388 - Florianópolis, SC",Gas Station,sc_florianópolis_5_6855,-27.595025286919437,-48.544499178009666,2025-10-07T11:26:34.067114
+Posto Oeste,"Rodovia Principal, 2701 - Florianópolis, SC",Gas Station,sc_florianópolis_6_4603,-27.577198556709913,-48.5493183322608,2025-10-07T11:26:34.067398
+Posto Shell Florianópolis 8,"Rua Getúlio Vargas, 578 - Florianópolis, SC",Gas Station,sc_florianópolis_7_958,-27.59014984290539,-48.52868080342218,2025-10-07T11:26:34.067489
+Posto Ipiranga Florianópolis 9,"Rodovia Marechal Deodoro, 8093 - Florianópolis, SC",Gas Station,sc_florianópolis_8_6323,-27.583470623851937,-48.55562457734294,2025-10-07T11:26:34.067566
+Posto Shell Florianópolis 10,"Rua Presidente Vargas, 6554 - Florianópolis, SC",Gas Station,sc_florianópolis_9_1596,-27.59426443476768,-48.54396580739084,2025-10-07T11:26:34.067672
+Posto Shell Florianópolis 11,"Rodovia Industrial, 8472 - Florianópolis, SC",Gas Station,sc_florianópolis_10_2565,-27.614677834475092,-48.564840850129976,2025-10-07T11:26:34.067750
+Posto Petrobras Florianópolis 12,"Rua dos Pioneiros, 8391 - Florianópolis, SC",Gas Station,sc_florianópolis_11_9011,-27.59126913570026,-48.532970876587086,2025-10-07T11:26:34.067822
+Posto Petrobras Florianópolis 13,"Avenida dos Pioneiros, 5398 - Florianópolis, SC",Gas Station,sc_florianópolis_12_7547,-27.583973708722386,-48.540499220323525,2025-10-07T11:26:34.067892
+Posto Petrobras Florianópolis 14,"Rua das Flores, 8909 - Florianópolis, SC",Gas Station,sc_florianópolis_13_3703,-27.582643979975202,-48.54113592641133,2025-10-07T11:26:34.067965
+Posto Rodoviário,"Rua Principal, 7318 - Florianópolis, SC",Gas Station,sc_florianópolis_14_5289,-27.598222723925463,-48.531398028235145,2025-10-07T11:26:34.068041
+Posto Petrobras Florianópolis 16,"Rodovia Industrial, 5288 - Florianópolis, SC",Gas Station,sc_florianópolis_15_3435,-27.599502832911696,-48.53052166204897,2025-10-07T11:26:34.068126
+Posto Oeste,"Rodovia dos Pioneiros, 8125 - Florianópolis, SC",Gas Station,sc_florianópolis_16_4603,-27.597073312821582,-48.54089725351664,2025-10-07T11:26:34.068203
+Posto Ipiranga Florianópolis 18,"Rodovia do Comércio, 3111 - Florianópolis, SC",Gas Station,sc_florianópolis_17_5146,-27.599717582195865,-48.5461225517287,2025-10-07T11:26:34.068286
+Posto Ale Florianópolis 19,"Rodovia Industrial, 799 - Florianópolis, SC",Gas Station,sc_florianópolis_18_8527,-27.576564135391283,-48.55387786359302,2025-10-07T11:26:34.068354
+Posto BR Florianópolis 20,"Rua Presidente Vargas, 4068 - Florianópolis, SC",Gas Station,sc_florianópolis_19_9409,-27.587484989187164,-48.536638427539295,2025-10-07T11:26:34.068423
+Posto Petrobras Florianópolis 21,"Rua do Comércio, 9209 - Florianópolis, SC",Gas Station,sc_florianópolis_20_607,-27.607381716466982,-48.54699469374697,2025-10-07T11:26:34.068491
+Posto Sul,"Rua Central, 4701 - Florianópolis, SC",Gas Station,sc_florianópolis_21_5095,-27.609485866914426,-48.55984007771814,2025-10-07T11:26:34.068561
+Posto Centro,"Avenida Marechal Deodoro, 9921 - Florianópolis, SC",Gas Station,sc_florianópolis_22_9383,-27.577038195901412,-48.54730650516502,2025-10-07T11:26:34.068659
+Posto Ipiranga Florianópolis 24,"Rodovia dos Pioneiros, 5153 - Florianópolis, SC",Gas Station,sc_florianópolis_23_489,-27.608036779128604,-48.55404199336628,2025-10-07T11:26:34.068732
+Posto Ipiranga Florianópolis 25,"Avenida dos Pioneiros, 8957 - Florianópolis, SC",Gas Station,sc_florianópolis_24_4946,-27.592450718677746,-48.546441812439376,2025-10-07T11:26:34.068806
+Posto Sul,"Rua da Independência, 887 - Florianópolis, SC",Gas Station,sc_florianópolis_25_5095,-27.60862779148426,-48.563765363539495,2025-10-07T11:26:34.068895
+Posto Ale Florianópolis 27,"Rodovia Marechal Deodoro, 2906 - Florianópolis, SC",Gas Station,sc_florianópolis_26_6262,-27.589596686394184,-48.54570650029517,2025-10-07T11:26:34.068968
+Posto Petrobras Florianópolis 28,"Rodovia Principal, 3840 - Florianópolis, SC",Gas Station,sc_florianópolis_27_5512,-27.597903453763223,-48.54396029220221,2025-10-07T11:26:34.069043
+Posto Norte,"Rodovia Getúlio Vargas, 6437 - Florianópolis, SC",Gas Station,sc_florianópolis_28_5967,-27.59200080770976,-48.55672729630429,2025-10-07T11:26:34.069112
+Posto Petrobras Florianópolis 30,"Rodovia Marechal Deodoro, 6096 - Florianópolis, SC",Gas Station,sc_florianópolis_29_9180,-27.577483883682586,-48.56216625721051,2025-10-07T11:26:34.069188
+Posto Ipiranga Florianópolis 31,"Avenida Marechal Deodoro, 1645 - Florianópolis, SC",Gas Station,sc_florianópolis_30_6161,-27.5845975335569,-48.55146819876019,2025-10-07T11:26:34.069259
+Posto Shell Florianópolis 32,"Avenida da Independência, 314 - Florianópolis, SC",Gas Station,sc_florianópolis_31_4161,-27.610110649854988,-48.552235620671844,2025-10-07T11:26:34.069322
+Posto Ale Florianópolis 33,"Avenida das Flores, 3236 - Florianópolis, SC",Gas Station,sc_florianópolis_32_5099,-27.607156172440536,-48.54014447578282,2025-10-07T11:26:34.069384
+Posto Petrobras São José,"Avenida Marechal Deodoro, 454 - São José, SC",Gas Station,sc_são_josé_0_3685,-27.615476714748077,-48.63811746433757,2025-10-07T11:26:34.069470
+Posto Ipiranga São José 2,"Rua do Comércio, 9639 - São José, SC",Gas Station,sc_são_josé_1_8749,-27.615309527550124,-48.61723482970812,2025-10-07T11:26:34.069541
+Posto Ipiranga São José 3,"Rodovia das Flores, 7492 - São José, SC",Gas Station,sc_são_josé_2_8025,-27.607484371195703,-48.6321637252442,2025-10-07T11:26:34.069636
+Posto Ale São José 4,"Rodovia da Independência, 3928 - São José, SC",Gas Station,sc_são_josé_3_7028,-27.6280907620899,-48.616516596009426,2025-10-07T11:26:34.069718
+Posto Ipiranga São José 5,"Rua das Flores, 8809 - São José, SC",Gas Station,sc_são_josé_4_3415,-27.6097886554484,-48.61318686060174,2025-10-07T11:26:34.069800
+Posto Ipiranga São José 6,"Rua Presidente Vargas, 6290 - São José, SC",Gas Station,sc_são_josé_5_458,-27.6264231736136,-48.61265081013849,2025-10-07T11:26:34.069876
+Posto Shell São José 7,"Rua Principal, 5614 - São José, SC",Gas Station,sc_são_josé_6_5729,-27.597586031528863,-48.65036001219281,2025-10-07T11:26:34.069937
+Posto Oeste,"Rodovia Santos Dumont, 2476 - São José, SC",Gas Station,sc_são_josé_7_4603,-27.60496796870715,-48.64208894008325,2025-10-07T11:26:34.070012
+Posto Centro,"Rua Principal, 546 - São José, SC",Gas Station,sc_são_josé_8_9383,-27.624270453541538,-48.6309179108812,2025-10-07T11:26:34.070112
+Posto Centro,"Avenida Santos Dumont, 5856 - São José, SC",Gas Station,sc_são_josé_9_9383,-27.630102106340274,-48.636824493297624,2025-10-07T11:26:34.070193
+Posto Ipiranga São José 11,"Rua Getúlio Vargas, 9341 - São José, SC",Gas Station,sc_são_josé_10_6847,-27.61097730311772,-48.61930607102377,2025-10-07T11:26:34.070281
+Posto Ale São José 12,"Rua Santos Dumont, 9669 - São José, SC",Gas Station,sc_são_josé_11_8417,-27.607146877846006,-48.65181139553989,2025-10-07T11:26:34.070367
+Posto Shell São José 13,"Rua Marechal Deodoro, 3308 - São José, SC",Gas Station,sc_são_josé_12_752,-27.596256970671387,-48.6210829632906,2025-10-07T11:26:34.070443
+Posto BR São José 14,"Avenida das Flores, 8150 - São José, SC",Gas Station,sc_são_josé_13_1406,-27.61726600308209,-48.62731927950071,2025-10-07T11:26:34.070523
+Posto Industrial,"Rodovia do Comércio, 1576 - São José, SC",Gas Station,sc_são_josé_14_2578,-27.59991900878284,-48.64851860137344,2025-10-07T11:26:34.070602
+Posto Ale São José 16,"Rua da Independência, 1088 - São José, SC",Gas Station,sc_são_josé_15_8514,-27.59614786885096,-48.63316612339392,2025-10-07T11:26:34.070696
+Posto Petrobras Palhoça,"Rua Industrial, 8098 - Palhoça, SC",Gas Station,sc_palhoça_0_1525,-27.639950476092864,-48.65264937291561,2025-10-07T11:26:34.070784
+Posto Central,"Rodovia Marechal Deodoro, 4799 - Palhoça, SC",Gas Station,sc_palhoça_1_8158,-27.658515059575365,-48.67974960978171,2025-10-07T11:26:34.070871
+Posto Central,"Avenida Central, 2491 - Palhoça, SC",Gas Station,sc_palhoça_2_8158,-27.65260810308691,-48.65509622153488,2025-10-07T11:26:34.070943
+Posto Shell Palhoça 4,"Rua Presidente Vargas, 4711 - Palhoça, SC",Gas Station,sc_palhoça_3_3006,-27.62441675451871,-48.677654192062235,2025-10-07T11:26:34.071009
+Posto Ale Palhoça 5,"Rua do Comércio, 7037 - Palhoça, SC",Gas Station,sc_palhoça_4_7893,-27.628783350631373,-48.65598891319368,2025-10-07T11:26:34.071081
+Posto Sul,"Rodovia Industrial, 1137 - Palhoça, SC",Gas Station,sc_palhoça_5_5095,-27.655588617878127,-48.6548805097839,2025-10-07T11:26:34.071147
+Posto BR Palhoça 7,"Rodovia Beira Rio, 3338 - Palhoça, SC",Gas Station,sc_palhoça_6_3907,-27.64011996079907,-48.65126288782474,2025-10-07T11:26:34.071209
+Posto Petrobras Palhoça 8,"Rua Presidente Vargas, 6038 - Palhoça, SC",Gas Station,sc_palhoça_7_8373,-27.653505842573416,-48.666174135551564,2025-10-07T11:26:34.071273
+Posto Norte,"Avenida Presidente Vargas, 3755 - Palhoça, SC",Gas Station,sc_palhoça_8_5967,-27.636427819397042,-48.68008418230946,2025-10-07T11:26:34.071355
+Posto Ipiranga Palhoça 10,"Rua das Flores, 7821 - Palhoça, SC",Gas Station,sc_palhoça_9_8338,-27.62676458906027,-48.66386035787426,2025-10-07T11:26:34.071429
+Posto Oeste,"Rodovia Presidente Vargas, 8315 - Palhoça, SC",Gas Station,sc_palhoça_10_4603,-27.624889624513692,-48.66979705590382,2025-10-07T11:26:34.071505
+Posto Ale Biguaçu,"Rua Santos Dumont, 5269 - Biguaçu, SC",Gas Station,sc_biguaçu_0_755,-27.4974660697289,-48.662391243138835,2025-10-07T11:26:34.071581
+Posto Leste,"Rodovia Presidente Vargas, 1370 - Biguaçu, SC",Gas Station,sc_biguaçu_1_6564,-27.51068843189091,-48.64899669654539,2025-10-07T11:26:34.071706
+Posto Ipiranga Biguaçu 3,"Rua dos Pioneiros, 919 - Biguaçu, SC",Gas Station,sc_biguaçu_2_5362,-27.48669279336125,-48.67602842742568,2025-10-07T11:26:34.071816
+Posto Ipiranga Biguaçu 4,"Rodovia do Comércio, 281 - Biguaçu, SC",Gas Station,sc_biguaçu_3_8027,-27.478340117526812,-48.66858918694469,2025-10-07T11:26:34.071893
+Posto Ale Joinville,"Avenida Industrial, 7874 - Joinville, SC",Gas Station,sc_joinville_0_1431,-26.313537918850407,-48.85035209924105,2025-10-07T11:26:34.071968
+Posto Ale Joinville 2,"Rua Central, 9156 - Joinville, SC",Gas Station,sc_joinville_1_4471,-26.302869078591584,-48.84244586936891,2025-10-07T11:26:34.072043
+Posto Shell Joinville 3,"Rua do Comércio, 1352 - Joinville, SC",Gas Station,sc_joinville_2_9223,-26.31129061789458,-48.83946030720796,2025-10-07T11:26:34.072114
+Posto Ipiranga Joinville 4,"Avenida Beira Rio, 5020 - Joinville, SC",Gas Station,sc_joinville_3_7442,-26.30806684948157,-48.83716796962832,2025-10-07T11:26:34.072197
+Posto BR Joinville 5,"Rua Beira Rio, 5049 - Joinville, SC",Gas Station,sc_joinville_4_3556,-26.320511424872915,-48.84291086426131,2025-10-07T11:26:34.072409
+Posto Shell Joinville 6,"Avenida Presidente Vargas, 8762 - Joinville, SC",Gas Station,sc_joinville_5_1481,-26.302103368509297,-48.864693435630954,2025-10-07T11:26:34.072528
+Posto BR Joinville 7,"Avenida do Comércio, 2476 - Joinville, SC",Gas Station,sc_joinville_6_9571,-26.30105722579541,-48.83562913072204,2025-10-07T11:26:34.072602
+Posto Ipiranga Joinville 8,"Rua do Comércio, 4858 - Joinville, SC",Gas Station,sc_joinville_7_5167,-26.293929262566976,-48.84204062897347,2025-10-07T11:26:34.072660
+Posto Centro,"Avenida Getúlio Vargas, 3656 - Joinville, SC",Gas Station,sc_joinville_8_9383,-26.313293207094876,-48.83613442929365,2025-10-07T11:26:34.072699
+Posto Shell Joinville 10,"Rodovia das Flores, 1633 - Joinville, SC",Gas Station,sc_joinville_9_1677,-26.3070285371613,-48.83394052766417,2025-10-07T11:26:34.072737
+Posto Central,"Rodovia da Independência, 5573 - Joinville, SC",Gas Station,sc_joinville_10_8158,-26.29495264244267,-48.86057806304317,2025-10-07T11:26:34.072775
+Posto Shell Joinville 12,"Avenida Santos Dumont, 3313 - Joinville, SC",Gas Station,sc_joinville_11_9357,-26.29053523725371,-48.85039515308978,2025-10-07T11:26:34.072811
+Posto Ale Joinville 13,"Avenida Marechal Deodoro, 126 - Joinville, SC",Gas Station,sc_joinville_12_4238,-26.31480519976076,-48.83504544178668,2025-10-07T11:26:34.072873
+Posto Ipiranga Joinville 14,"Rua Getúlio Vargas, 4950 - Joinville, SC",Gas Station,sc_joinville_13_5683,-26.30229528511262,-48.83310611614145,2025-10-07T11:26:34.072926
+Posto Ale Joinville 15,"Rodovia dos Pioneiros, 3990 - Joinville, SC",Gas Station,sc_joinville_14_5299,-26.307017902600528,-48.84089722464768,2025-10-07T11:26:34.072964
+Posto BR Joinville 16,"Rua Santos Dumont, 6227 - Joinville, SC",Gas Station,sc_joinville_15_1701,-26.291770055462916,-48.84810530602489,2025-10-07T11:26:34.073001
+Posto Ipiranga Joinville 17,"Rua Marechal Deodoro, 9757 - Joinville, SC",Gas Station,sc_joinville_16_2873,-26.318132369769987,-48.828824560530556,2025-10-07T11:26:34.073040
+Posto Ale Joinville 18,"Rua Marechal Deodoro, 9370 - Joinville, SC",Gas Station,sc_joinville_17_9313,-26.307481173893997,-48.84425571990737,2025-10-07T11:26:34.073077
+Posto Shell Joinville 19,"Avenida Marechal Deodoro, 4836 - Joinville, SC",Gas Station,sc_joinville_18_9024,-26.290912319946283,-48.85828381420469,2025-10-07T11:26:34.073114
+Posto BR Joinville 20,"Rodovia Marechal Deodoro, 1443 - Joinville, SC",Gas Station,sc_joinville_19_3887,-26.287902213852504,-48.85244089281187,2025-10-07T11:26:34.073172
+Posto Petrobras Joinville 21,"Rodovia Marechal Deodoro, 3898 - Joinville, SC",Gas Station,sc_joinville_20_9511,-26.302520790186687,-48.83959993551807,2025-10-07T11:26:34.073232
+Posto Shell Joinville 22,"Rua Marechal Deodoro, 8538 - Joinville, SC",Gas Station,sc_joinville_21_175,-26.30346690025115,-48.86672391555556,2025-10-07T11:26:34.073293
+Posto Ipiranga Joinville 23,"Avenida das Flores, 6909 - Joinville, SC",Gas Station,sc_joinville_22_4057,-26.316282284880952,-48.83577398725422,2025-10-07T11:26:34.073528
+Posto Petrobras Joinville 24,"Rua Getúlio Vargas, 5993 - Joinville, SC",Gas Station,sc_joinville_23_1997,-26.314497734132036,-48.86284885812991,2025-10-07T11:26:34.073628
+Posto BR Joinville 25,"Avenida dos Pioneiros, 6353 - Joinville, SC",Gas Station,sc_joinville_24_1214,-26.296310880600196,-48.852716653477785,2025-10-07T11:26:34.073713
+Posto Sul,"Avenida Beira Rio, 6720 - Joinville, SC",Gas Station,sc_joinville_25_5095,-26.311941263482236,-48.82987586939366,2025-10-07T11:26:34.073786
+Posto Shell Joinville 27,"Rodovia Central, 8884 - Joinville, SC",Gas Station,sc_joinville_26_7770,-26.322997834833657,-48.84230249851187,2025-10-07T11:26:34.073861
+Posto Shell Joinville 28,"Rodovia Santos Dumont, 286 - Joinville, SC",Gas Station,sc_joinville_27_1179,-26.285353633850345,-48.84471358687013,2025-10-07T11:26:34.073931
+Posto Ipiranga Joinville 29,"Rua Marechal Deodoro, 8715 - Joinville, SC",Gas Station,sc_joinville_28_775,-26.30512766599106,-48.8677508032236,2025-10-07T11:26:34.074002
+Posto Ale Joinville 30,"Rua Beira Rio, 5528 - Joinville, SC",Gas Station,sc_joinville_29_9165,-26.315800332215453,-48.83287628262246,2025-10-07T11:26:34.074078
+Posto Petrobras Joinville 31,"Rua Santos Dumont, 7675 - Joinville, SC",Gas Station,sc_joinville_30_881,-26.293866147969748,-48.84487464125157,2025-10-07T11:26:34.074148
+Posto Petrobras Joinville 32,"Avenida da Independência, 2645 - Joinville, SC",Gas Station,sc_joinville_31_9760,-26.296217198491384,-48.831784914189974,2025-10-07T11:26:34.074218
+Posto BR Joinville 33,"Avenida Santos Dumont, 1510 - Joinville, SC",Gas Station,sc_joinville_32_5382,-26.287670567487005,-48.85988887409578,2025-10-07T11:26:34.074299
+Posto Ale Joinville 34,"Rodovia Santos Dumont, 5353 - Joinville, SC",Gas Station,sc_joinville_33_9145,-26.288027567308703,-48.83626587003117,2025-10-07T11:26:34.074381
+Posto Sul,"Avenida dos Pioneiros, 7239 - Joinville, SC",Gas Station,sc_joinville_34_5095,-26.296793165543797,-48.848870318244224,2025-10-07T11:26:34.074452
+Posto Petrobras Joinville 36,"Rua Getúlio Vargas, 6721 - Joinville, SC",Gas Station,sc_joinville_35_3712,-26.302025650151826,-48.83189135716601,2025-10-07T11:26:34.074531
+Posto BR Joinville 37,"Avenida da Independência, 1817 - Joinville, SC",Gas Station,sc_joinville_36_1909,-26.296674169718862,-48.86270423095434,2025-10-07T11:26:34.074607
+Posto Ale Joinville 38,"Avenida dos Pioneiros, 9689 - Joinville, SC",Gas Station,sc_joinville_37_3595,-26.299441691105045,-48.86787901802143,2025-10-07T11:26:34.074678
+Posto Petrobras Joinville 39,"Rua Getúlio Vargas, 708 - Joinville, SC",Gas Station,sc_joinville_38_5658,-26.31532529189053,-48.84423792222909,2025-10-07T11:26:34.074750
+Posto Ipiranga Joinville 40,"Rodovia Principal, 5355 - Joinville, SC",Gas Station,sc_joinville_39_8698,-26.297456612099186,-48.85044206742688,2025-10-07T11:26:34.074818
+Posto Shell Blumenau,"Rua Principal, 7973 - Blumenau, SC",Gas Station,sc_blumenau_0_1727,-26.938188565610947,-49.04854028027863,2025-10-07T11:26:34.074895
+Posto Ale Blumenau 2,"Rua das Flores, 4723 - Blumenau, SC",Gas Station,sc_blumenau_1_5358,-26.91284845142323,-49.07413185174732,2025-10-07T11:26:34.074964
+Posto Ipiranga Blumenau 3,"Avenida da Independência, 5386 - Blumenau, SC",Gas Station,sc_blumenau_2_4657,-26.92301058506727,-49.07484226602271,2025-10-07T11:26:34.075045
+Posto BR Blumenau 4,"Rodovia dos Pioneiros, 9690 - Blumenau, SC",Gas Station,sc_blumenau_3_4052,-26.917907090464432,-49.084445053575074,2025-10-07T11:26:34.075125
+Posto BR Blumenau 5,"Rua Principal, 6773 - Blumenau, SC",Gas Station,sc_blumenau_4_8939,-26.907727634015817,-49.08364539841186,2025-10-07T11:26:34.075195
+Posto Petrobras Blumenau 6,"Avenida Santos Dumont, 8084 - Blumenau, SC",Gas Station,sc_blumenau_5_9143,-26.909665899750184,-49.08590869956323,2025-10-07T11:26:34.075270
+Posto Ipiranga Blumenau 7,"Avenida Beira Rio, 2146 - Blumenau, SC",Gas Station,sc_blumenau_6_737,-26.937139976982564,-49.07829429015132,2025-10-07T11:26:34.075341
+Posto Petrobras Blumenau 8,"Avenida Presidente Vargas, 6446 - Blumenau, SC",Gas Station,sc_blumenau_7_82,-26.912829362102336,-49.06007355574442,2025-10-07T11:26:34.075410
+Posto Shell Blumenau 9,"Avenida Getúlio Vargas, 6877 - Blumenau, SC",Gas Station,sc_blumenau_8_8965,-26.925899753686434,-49.04714030849844,2025-10-07T11:26:34.075481
+Posto Petrobras Blumenau 10,"Avenida do Comércio, 4970 - Blumenau, SC",Gas Station,sc_blumenau_9_3702,-26.905858700219543,-49.06571317436129,2025-10-07T11:26:34.075553
+Posto BR Blumenau 11,"Rodovia Beira Rio, 8709 - Blumenau, SC",Gas Station,sc_blumenau_10_1796,-26.902819579221752,-49.07669554435,2025-10-07T11:26:34.075624
+Posto Shell Blumenau 12,"Rodovia Getúlio Vargas, 2657 - Blumenau, SC",Gas Station,sc_blumenau_11_5441,-26.92703270401748,-49.08167686085621,2025-10-07T11:26:34.075704
+Posto BR Blumenau 13,"Rua Getúlio Vargas, 9445 - Blumenau, SC",Gas Station,sc_blumenau_12_1525,-26.924755688686705,-49.05280477910878,2025-10-07T11:26:34.075774
+Posto Norte,"Rua Industrial, 797 - Blumenau, SC",Gas Station,sc_blumenau_13_5967,-26.93455429434456,-49.077341917500426,2025-10-07T11:26:34.075855
+Posto Ipiranga Blumenau 15,"Avenida do Comércio, 1958 - Blumenau, SC",Gas Station,sc_blumenau_14_4755,-26.932893350210865,-49.07174707372897,2025-10-07T11:26:34.075936
+Posto Shell Blumenau 16,"Rodovia Principal, 8622 - Blumenau, SC",Gas Station,sc_blumenau_15_8762,-26.939014788573086,-49.07683269522784,2025-10-07T11:26:34.076023
+Posto BR Blumenau 17,"Rua Getúlio Vargas, 1860 - Blumenau, SC",Gas Station,sc_blumenau_16_1573,-26.92798057262469,-49.08280135452658,2025-10-07T11:26:34.076096
+Posto Shell Blumenau 18,"Rodovia Getúlio Vargas, 7890 - Blumenau, SC",Gas Station,sc_blumenau_17_2493,-26.932432818552645,-49.04735034112055,2025-10-07T11:26:34.076167
+Posto Ale Blumenau 19,"Avenida Presidente Vargas, 8078 - Blumenau, SC",Gas Station,sc_blumenau_18_5965,-26.91103406300855,-49.07712055364126,2025-10-07T11:26:34.076251
+Posto Ipiranga Blumenau 20,"Avenida Principal, 1772 - Blumenau, SC",Gas Station,sc_blumenau_19_9463,-26.926695481665,-49.084335429627984,2025-10-07T11:26:34.076322
+Posto Ale Blumenau 21,"Avenida Beira Rio, 4388 - Blumenau, SC",Gas Station,sc_blumenau_20_6138,-26.903682500349223,-49.06980678923942,2025-10-07T11:26:34.076390
+Posto Shell Blumenau 22,"Avenida Principal, 893 - Blumenau, SC",Gas Station,sc_blumenau_21_7983,-26.92883686502279,-49.061755082523035,2025-10-07T11:26:34.076462
+Posto Ipiranga Blumenau 23,"Rua Central, 8935 - Blumenau, SC",Gas Station,sc_blumenau_22_5236,-26.909137811119695,-49.05948322679574,2025-10-07T11:26:34.076530
+Posto BR Blumenau 24,"Rodovia Presidente Vargas, 6566 - Blumenau, SC",Gas Station,sc_blumenau_23_8676,-26.904356030120713,-49.07058631478319,2025-10-07T11:26:34.076609
+Posto Ipiranga São Bento do Sul,"Rua Industrial, 3985 - São Bento do Sul, SC",Gas Station,sc_são_bento_do_sul_0_370,-26.240783515340798,-49.37594442886532,2025-10-07T11:26:34.076690
+Posto Petrobras São Bento do Sul 2,"Rua da Independência, 2593 - São Bento do Sul, SC",Gas Station,sc_são_bento_do_sul_1_6800,-26.259585465787836,-49.39813247350996,2025-10-07T11:26:34.076780
+Posto Petrobras São Bento do Sul 3,"Rua do Comércio, 4875 - São Bento do Sul, SC",Gas Station,sc_são_bento_do_sul_2_5232,-26.250137645233004,-49.39194362048489,2025-10-07T11:26:34.076855
+Posto Leste,"Rodovia Presidente Vargas, 1938 - São Bento do Sul, SC",Gas Station,sc_são_bento_do_sul_3_6564,-26.24315303551583,-49.37743051137161,2025-10-07T11:26:34.076927
+Posto Leste,"Avenida Santos Dumont, 888 - São Bento do Sul, SC",Gas Station,sc_são_bento_do_sul_4_6564,-26.244396806126744,-49.37798901676664,2025-10-07T11:26:34.077001
+Posto Shell Pomerode,"Rodovia Central, 6969 - Pomerode, SC",Gas Station,sc_pomerode_0_7030,-26.729398930305745,-49.18735163543126,2025-10-07T11:26:34.077076
+Posto Rodoviário,"Avenida dos Pioneiros, 1414 - Pomerode, SC",Gas Station,sc_pomerode_1_5289,-26.734724272732254,-49.18315073762519,2025-10-07T11:26:34.077148
+Posto Petrobras Pomerode 3,"Rua do Comércio, 9460 - Pomerode, SC",Gas Station,sc_pomerode_2_5044,-26.72826244588615,-49.18692640899676,2025-10-07T11:26:34.077221
+Posto Ale Indaial,"Rodovia Santos Dumont, 788 - Indaial, SC",Gas Station,sc_indaial_0_9818,-26.88071118778311,-49.217923071535424,2025-10-07T11:26:34.077295
+Posto Petrobras Indaial 2,"Avenida Getúlio Vargas, 2968 - Indaial, SC",Gas Station,sc_indaial_1_9175,-26.884504035493922,-49.2527492085892,2025-10-07T11:26:34.077382
+Posto Shell Indaial 3,"Avenida Principal, 9985 - Indaial, SC",Gas Station,sc_indaial_2_6084,-26.89115017247643,-49.220845181940255,2025-10-07T11:26:34.077454
+Posto Shell Indaial 4,"Rodovia Beira Rio, 2930 - Indaial, SC",Gas Station,sc_indaial_3_9126,-26.917349001253317,-49.22823300454597,2025-10-07T11:26:34.077530
+Posto Petrobras Indaial 5,"Avenida das Flores, 3083 - Indaial, SC",Gas Station,sc_indaial_4_8631,-26.90863199733498,-49.248084056969,2025-10-07T11:26:34.077615
+Posto Petrobras Itajaí,"Rua Principal, 6241 - Itajaí, SC",Gas Station,sc_itajaí_0_9036,-26.897281085944844,-48.6757478451374,2025-10-07T11:26:34.077693
+Posto Sul,"Avenida Santos Dumont, 7994 - Itajaí, SC",Gas Station,sc_itajaí_1_5095,-26.89159612240327,-48.6641712595066,2025-10-07T11:26:34.077778
+Posto BR Itajaí 3,"Avenida da Independência, 7449 - Itajaí, SC",Gas Station,sc_itajaí_2_2725,-26.924264328410395,-48.6719269865469,2025-10-07T11:26:34.077850
+Posto BR Itajaí 4,"Rodovia dos Pioneiros, 1804 - Itajaí, SC",Gas Station,sc_itajaí_3_7811,-26.90823380526715,-48.676105193569505,2025-10-07T11:26:34.077924
+Posto Ale Itajaí 5,"Rodovia Principal, 2858 - Itajaí, SC",Gas Station,sc_itajaí_4_3171,-26.920042647080177,-48.66809598084561,2025-10-07T11:26:34.077997
+Posto BR Itajaí 6,"Rodovia Santos Dumont, 7064 - Itajaí, SC",Gas Station,sc_itajaí_5_8641,-26.911461246839472,-48.67929156019535,2025-10-07T11:26:34.078063
+Posto BR Itajaí 7,"Avenida Santos Dumont, 9524 - Itajaí, SC",Gas Station,sc_itajaí_6_6911,-26.921371232654742,-48.65860302911267,2025-10-07T11:26:34.078135
+Posto Oeste,"Rua da Independência, 2487 - Itajaí, SC",Gas Station,sc_itajaí_7_4603,-26.91515457373514,-48.66814906529576,2025-10-07T11:26:34.078202
+Posto Petrobras Itajaí 9,"Rodovia Principal, 1039 - Itajaí, SC",Gas Station,sc_itajaí_8_9656,-26.91675908015132,-48.66635491220334,2025-10-07T11:26:34.078278
+Posto Petrobras Itajaí 10,"Rodovia Central, 5544 - Itajaí, SC",Gas Station,sc_itajaí_9_7123,-26.909633572093824,-48.65683034227282,2025-10-07T11:26:34.078359
+Posto Shell Itajaí 11,"Rua dos Pioneiros, 792 - Itajaí, SC",Gas Station,sc_itajaí_10_3347,-26.918678828562054,-48.66506829900974,2025-10-07T11:26:34.078437
+Posto Shell Itajaí 12,"Avenida Getúlio Vargas, 2973 - Itajaí, SC",Gas Station,sc_itajaí_11_4569,-26.924525746658798,-48.654331240127846,2025-10-07T11:26:34.078519
+Posto Petrobras Itajaí 13,"Rodovia da Independência, 5127 - Itajaí, SC",Gas Station,sc_itajaí_12_6720,-26.901924636063423,-48.660246427974066,2025-10-07T11:26:34.078600
+Posto BR Itajaí 14,"Rodovia da Independência, 9464 - Itajaí, SC",Gas Station,sc_itajaí_13_8051,-26.91864528942095,-48.68113014749291,2025-10-07T11:26:34.078672
+Posto Petrobras Balneário Camboriú,"Rodovia Presidente Vargas, 6079 - Balneário Camboriú, SC",Gas Station,sc_balneário_camboriú_0_3601,-27.00358480531376,-48.64466901086119,2025-10-07T11:26:34.078750
+Posto Shell Balneário Camboriú 2,"Rua dos Pioneiros, 8244 - Balneário Camboriú, SC",Gas Station,sc_balneário_camboriú_1_4929,-27.00266780998146,-48.61552689328457,2025-10-07T11:26:34.078824
+Posto Central,"Rodovia dos Pioneiros, 6221 - Balneário Camboriú, SC",Gas Station,sc_balneário_camboriú_2_8158,-26.994653479181498,-48.619963875177305,2025-10-07T11:26:34.078906
+Posto BR Balneário Camboriú 4,"Rua das Flores, 8525 - Balneário Camboriú, SC",Gas Station,sc_balneário_camboriú_3_7860,-27.003345853328998,-48.620110450888156,2025-10-07T11:26:34.078980
+Posto BR Balneário Camboriú 5,"Rua Principal, 3385 - Balneário Camboriú, SC",Gas Station,sc_balneário_camboriú_4_4049,-26.97319869364318,-48.645971928304135,2025-10-07T11:26:34.079064
+Posto Ipiranga Balneário Camboriú 6,"Rua dos Pioneiros, 1809 - Balneário Camboriú, SC",Gas Station,sc_balneário_camboriú_5_8886,-26.98919646417044,-48.614883740186436,2025-10-07T11:26:34.079143
+Posto Shell Balneário Camboriú 7,"Avenida Beira Rio, 8727 - Balneário Camboriú, SC",Gas Station,sc_balneário_camboriú_6_4649,-26.99698352734955,-48.62479623508884,2025-10-07T11:26:34.079216
+Posto Rodoviário,"Rodovia Presidente Vargas, 911 - Balneário Camboriú, SC",Gas Station,sc_balneário_camboriú_7_5289,-27.002304630924527,-48.65372794212676,2025-10-07T11:26:34.079288
+Posto Oeste,"Rua da Independência, 6918 - Balneário Camboriú, SC",Gas Station,sc_balneário_camboriú_8_4603,-26.986853754945475,-48.648283359873545,2025-10-07T11:26:34.079361
+Posto Ale Navegantes,"Rodovia dos Pioneiros, 2739 - Navegantes, SC",Gas Station,sc_navegantes_0_3254,-26.878763676994446,-48.642890709946315,2025-10-07T11:26:34.079434
+Posto Shell Navegantes 2,"Rua das Flores, 386 - Navegantes, SC",Gas Station,sc_navegantes_1_4487,-26.916541630214926,-48.67240323940126,2025-10-07T11:26:34.079504
+Posto Petrobras Navegantes 3,"Rodovia Presidente Vargas, 3626 - Navegantes, SC",Gas Station,sc_navegantes_2_5452,-26.88469103883344,-48.646776941297496,2025-10-07T11:26:34.079693
+Posto Centro,"Rodovia da Independência, 4688 - Navegantes, SC",Gas Station,sc_navegantes_3_9383,-26.879425594541893,-48.655781986492784,2025-10-07T11:26:34.079797
+Posto Sul,"Avenida Central, 7711 - Navegantes, SC",Gas Station,sc_navegantes_4_5095,-26.89248545917317,-48.65849566939601,2025-10-07T11:26:34.079867
+Posto BR Criciúma,"Rodovia da Independência, 927 - Criciúma, SC",Gas Station,sc_criciúma_0_2271,-28.672316017375994,-49.35728324829305,2025-10-07T11:26:34.079942
+Posto Sul,"Avenida Beira Rio, 8188 - Criciúma, SC",Gas Station,sc_criciúma_1_5095,-28.67058126427072,-49.36968059477183,2025-10-07T11:26:34.080027
+Posto Ipiranga Criciúma 3,"Rodovia do Comércio, 2913 - Criciúma, SC",Gas Station,sc_criciúma_2_8379,-28.678275545830058,-49.37296824718237,2025-10-07T11:26:34.080099
+Posto Norte,"Avenida Principal, 9396 - Criciúma, SC",Gas Station,sc_criciúma_3_5967,-28.692114427885244,-49.362968412400754,2025-10-07T11:26:34.080342
+Posto BR Criciúma 5,"Rodovia Presidente Vargas, 6726 - Criciúma, SC",Gas Station,sc_criciúma_4_4160,-28.662117577353012,-49.377873338852936,2025-10-07T11:26:34.080439
+Posto BR Criciúma 6,"Rua Presidente Vargas, 7872 - Criciúma, SC",Gas Station,sc_criciúma_5_4788,-28.69036036784358,-49.36410446153025,2025-10-07T11:26:34.080515
+Posto BR Criciúma 7,"Rua das Flores, 7358 - Criciúma, SC",Gas Station,sc_criciúma_6_2033,-28.66611526888257,-49.3582992981987,2025-10-07T11:26:34.080722
+Posto BR Criciúma 8,"Avenida Principal, 8414 - Criciúma, SC",Gas Station,sc_criciúma_7_7653,-28.68710156648182,-49.356335672791026,2025-10-07T11:26:34.080821
+Posto Ipiranga Criciúma 9,"Rua Marechal Deodoro, 2980 - Criciúma, SC",Gas Station,sc_criciúma_8_3930,-28.680420015314937,-49.34996316494906,2025-10-07T11:26:34.081019
+Posto Ipiranga Criciúma 10,"Avenida da Independência, 7373 - Criciúma, SC",Gas Station,sc_criciúma_9_6703,-28.67588309082399,-49.36554992923907,2025-10-07T11:26:34.081105
+Posto Petrobras Criciúma 11,"Rodovia Beira Rio, 8404 - Criciúma, SC",Gas Station,sc_criciúma_10_3815,-28.69493272121297,-49.351010618007514,2025-10-07T11:26:34.081191
+Posto Ale Criciúma 12,"Avenida Getúlio Vargas, 4814 - Criciúma, SC",Gas Station,sc_criciúma_11_3113,-28.666916829848635,-49.37128154239341,2025-10-07T11:26:34.081341
+Posto Ipiranga Criciúma 13,"Avenida Presidente Vargas, 8586 - Criciúma, SC",Gas Station,sc_criciúma_12_6970,-28.6617355408626,-49.38576368623415,2025-10-07T11:26:34.081432
+Posto Shell Criciúma 14,"Rodovia Beira Rio, 1978 - Criciúma, SC",Gas Station,sc_criciúma_13_2226,-28.694811313247865,-49.38817002334666,2025-10-07T11:26:34.081506
+Posto BR Tubarão,"Rodovia Presidente Vargas, 5348 - Tubarão, SC",Gas Station,sc_tubarão_0_3779,-28.474605004020052,-49.006372877132236,2025-10-07T11:26:34.081603
+Posto Shell Tubarão 2,"Rua da Independência, 2360 - Tubarão, SC",Gas Station,sc_tubarão_1_3237,-28.45924642727988,-49.018492844036125,2025-10-07T11:26:34.081683
+Posto Ale Tubarão 3,"Rua das Flores, 9490 - Tubarão, SC",Gas Station,sc_tubarão_2_4700,-28.46329467368597,-49.02200392582583,2025-10-07T11:26:34.081757
+Posto Ale Tubarão 4,"Rodovia Beira Rio, 5229 - Tubarão, SC",Gas Station,sc_tubarão_3_5030,-28.484802216248564,-49.02362348523049,2025-10-07T11:26:34.081835
+Posto Ale Tubarão 5,"Rodovia Getúlio Vargas, 7938 - Tubarão, SC",Gas Station,sc_tubarão_4_442,-28.485370355982838,-48.98822294295307,2025-10-07T11:26:34.082217
+Posto BR Tubarão 6,"Rua Presidente Vargas, 2740 - Tubarão, SC",Gas Station,sc_tubarão_5_4450,-28.458155280237865,-49.01250675914043,2025-10-07T11:26:34.082305
+Posto BR Tubarão 7,"Rodovia Principal, 1857 - Tubarão, SC",Gas Station,sc_tubarão_6_174,-28.458501310930078,-48.99675213226658,2025-10-07T11:26:34.082384
+Posto Sul,"Avenida dos Pioneiros, 6120 - Araranguá, SC",Gas Station,sc_araranguá_0_5095,-28.92601333399802,-49.48505268978437,2025-10-07T11:26:34.082470
+Posto Ale Araranguá 2,"Avenida Beira Rio, 3766 - Araranguá, SC",Gas Station,sc_araranguá_1_345,-28.94567418543328,-49.49446638943658,2025-10-07T11:26:34.082671
+Posto Petrobras Araranguá 3,"Rua Santos Dumont, 8257 - Araranguá, SC",Gas Station,sc_araranguá_2_6605,-28.93114652927014,-49.49593386322615,2025-10-07T11:26:34.082754
+Posto Ipiranga Araranguá 4,"Rua Industrial, 9820 - Araranguá, SC",Gas Station,sc_araranguá_3_1371,-28.919975056497073,-49.48078577727145,2025-10-07T11:26:34.082844
+Posto Shell Chapecó,"Avenida Getúlio Vargas, 586 - Chapecó, SC",Gas Station,sc_chapecó_0_3155,-27.119515359071144,-52.600858100268525,2025-10-07T11:26:34.082931
+Posto Ipiranga Chapecó 2,"Avenida das Flores, 576 - Chapecó, SC",Gas Station,sc_chapecó_1_1030,-27.092221589234214,-52.59849005725843,2025-10-07T11:26:34.083033
+Posto Ipiranga Chapecó 3,"Rodovia Santos Dumont, 4163 - Chapecó, SC",Gas Station,sc_chapecó_2_8627,-27.118953502410317,-52.60126721006921,2025-10-07T11:26:34.083117
+Posto Ipiranga Chapecó 4,"Rodovia Getúlio Vargas, 4373 - Chapecó, SC",Gas Station,sc_chapecó_3_2049,-27.094407102443423,-52.628694617441475,2025-10-07T11:26:34.083181
+Posto BR Chapecó 5,"Rodovia das Flores, 4038 - Chapecó, SC",Gas Station,sc_chapecó_4_4678,-27.108180009891818,-52.62279698942586,2025-10-07T11:26:34.083221
+Posto BR Chapecó 6,"Rodovia das Flores, 7307 - Chapecó, SC",Gas Station,sc_chapecó_5_5120,-27.106587972344563,-52.60820360357916,2025-10-07T11:26:34.083259
+Posto Petrobras Chapecó 7,"Rodovia Marechal Deodoro, 6252 - Chapecó, SC",Gas Station,sc_chapecó_6_7681,-27.119517236006303,-52.62908053268056,2025-10-07T11:26:34.083297
+Posto Ipiranga Chapecó 8,"Rodovia Santos Dumont, 1994 - Chapecó, SC",Gas Station,sc_chapecó_7_5068,-27.108036322140915,-52.613900962788016,2025-10-07T11:26:34.083343
+Posto Rodoviário,"Rodovia do Comércio, 7389 - Chapecó, SC",Gas Station,sc_chapecó_8_5289,-27.086663048591042,-52.6202197286166,2025-10-07T11:26:34.083381
+Posto Ipiranga Chapecó 10,"Avenida Central, 3814 - Chapecó, SC",Gas Station,sc_chapecó_9_3714,-27.08799191995465,-52.60191761520613,2025-10-07T11:26:34.083420
+Posto Ipiranga Chapecó 11,"Rodovia Central, 4786 - Chapecó, SC",Gas Station,sc_chapecó_10_7781,-27.116325159152606,-52.61434683235125,2025-10-07T11:26:34.083458
+Posto Ale Chapecó 12,"Rua Santos Dumont, 146 - Chapecó, SC",Gas Station,sc_chapecó_11_70,-27.116276197172265,-52.609425540621544,2025-10-07T11:26:34.083497
+Posto Ale Chapecó 13,"Avenida da Independência, 7396 - Chapecó, SC",Gas Station,sc_chapecó_12_3829,-27.112023660454163,-52.63375814252722,2025-10-07T11:26:34.083535
+Posto Ale Chapecó 14,"Rodovia Santos Dumont, 4450 - Chapecó, SC",Gas Station,sc_chapecó_13_536,-27.117080245445884,-52.625690952184385,2025-10-07T11:26:34.083584
+Posto Petrobras Concórdia,"Avenida Beira Rio, 4847 - Concórdia, SC",Gas Station,sc_concórdia_0_3399,-27.237885779592744,-52.02883467910349,2025-10-07T11:26:34.083628
+Posto Ale Concórdia 2,"Rua Industrial, 9720 - Concórdia, SC",Gas Station,sc_concórdia_1_9462,-27.217202935281453,-52.02401558780751,2025-10-07T11:26:34.083667
+Posto Petrobras Concórdia 3,"Avenida Principal, 2601 - Concórdia, SC",Gas Station,sc_concórdia_2_4514,-27.25391496257082,-52.023243129227765,2025-10-07T11:26:34.083706
+Posto Ale Concórdia 4,"Avenida Presidente Vargas, 346 - Concórdia, SC",Gas Station,sc_concórdia_3_6717,-27.244481927172025,-52.03848155217789,2025-10-07T11:26:34.083751
+Posto Ale Concórdia 5,"Rodovia Beira Rio, 6263 - Concórdia, SC",Gas Station,sc_concórdia_4_471,-27.22508581606653,-52.04140258475027,2025-10-07T11:26:34.083795
+Posto Shell Xanxerê,"Avenida do Comércio, 6569 - Xanxerê, SC",Gas Station,sc_xanxerê_0_9028,-26.859652371729,-52.401587022912544,2025-10-07T11:26:34.083835
+Posto Shell Xanxerê 2,"Rodovia dos Pioneiros, 2831 - Xanxerê, SC",Gas Station,sc_xanxerê_1_9875,-26.88644306182061,-52.38666334872888,2025-10-07T11:26:34.083873
+Posto Industrial,"Rua Industrial, 1416 - Xanxerê, SC",Gas Station,sc_xanxerê_2_2578,-26.86053867156152,-52.40882477791465,2025-10-07T11:26:34.083929
+Posto BR Lages,"Avenida da Independência, 2161 - Lages, SC",Gas Station,sc_lages_0_6224,-27.797767442404968,-50.32815585189239,2025-10-07T11:26:34.084006
+Posto Norte,"Rodovia Getúlio Vargas, 126 - Lages, SC",Gas Station,sc_lages_1_5967,-27.814884635107774,-50.31433066670912,2025-10-07T11:26:34.084089
+Posto Petrobras Lages 3,"Rua Central, 1582 - Lages, SC",Gas Station,sc_lages_2_748,-27.82988600918129,-50.32299027673669,2025-10-07T11:26:34.084169
+Posto Ale Lages 4,"Rua das Flores, 2838 - Lages, SC",Gas Station,sc_lages_3_244,-27.802766273856296,-50.329887810111536,2025-10-07T11:26:34.084232
+Posto BR Lages 5,"Avenida Principal, 131 - Lages, SC",Gas Station,sc_lages_4_7963,-27.82979191093633,-50.34212080406169,2025-10-07T11:26:34.084284
+Posto Ale Lages 6,"Avenida Central, 5557 - Lages, SC",Gas Station,sc_lages_5_9398,-27.811274533264367,-50.34058622224724,2025-10-07T11:26:34.084335
+Posto BR Lages 7,"Avenida Marechal Deodoro, 4957 - Lages, SC",Gas Station,sc_lages_6_7881,-27.821506289277856,-50.31854719092899,2025-10-07T11:26:34.084398
+Posto Ipiranga Lages 8,"Avenida da Independência, 8824 - Lages, SC",Gas Station,sc_lages_7_6533,-27.834011301160555,-50.32768346930933,2025-10-07T11:26:34.084440
+Posto Ale Lages 9,"Rua das Flores, 8423 - Lages, SC",Gas Station,sc_lages_8_1612,-27.81404453253101,-50.345634589929816,2025-10-07T11:26:34.084477
+Posto Ipiranga Lages 10,"Avenida Beira Rio, 4481 - Lages, SC",Gas Station,sc_lages_9_4802,-27.833664726421944,-50.31501612342141,2025-10-07T11:26:34.084515
+Posto Petrobras São Joaquim,"Rua Principal, 2522 - São Joaquim, SC",Gas Station,sc_são_joaquim_0_529,-28.278505997168583,-49.92817053534447,2025-10-07T11:26:34.084560
+Posto Ipiranga São Joaquim 2,"Rua Beira Rio, 1281 - São Joaquim, SC",Gas Station,sc_são_joaquim_1_125,-28.29965532421866,-49.9463634882569,2025-10-07T11:26:34.085348
+Posto Ipiranga São Joaquim 3,"Avenida Beira Rio, 4397 - São Joaquim, SC",Gas Station,sc_são_joaquim_2_3622,-28.304856196463508,-49.94710959696056,2025-10-07T11:26:34.085429
+Posto Petrobras Caçador,"Rua das Flores, 647 - Caçador, SC",Gas Station,sc_caçador_0_222,-26.7936853448715,-51.034028568123325,2025-10-07T11:26:34.085511
+Posto Ipiranga Caçador 2,"Rua Industrial, 6630 - Caçador, SC",Gas Station,sc_caçador_1_397,-26.779774903651518,-51.0137366161573,2025-10-07T11:26:34.085604
+Posto Leste,"Rodovia Central, 4891 - Caçador, SC",Gas Station,sc_caçador_2_6564,-26.781107621836433,-51.0244694563263,2025-10-07T11:26:34.085680
+Posto BR Caçador 4,"Rodovia Santos Dumont, 9486 - Caçador, SC",Gas Station,sc_caçador_3_5954,-26.764581532868714,-51.00069723890602,2025-10-07T11:26:34.085755
+Posto Shell Caçador 5,"Rodovia do Comércio, 5225 - Caçador, SC",Gas Station,sc_caçador_4_9636,-26.79519101397452,-51.00182677391994,2025-10-07T11:26:34.085848
+Posto Shell Rio do Sul,"Rodovia Industrial, 1765 - Rio do Sul, SC",Gas Station,sc_rio_do_sul_0_7036,-27.22428370820018,-49.64273604141597,2025-10-07T11:26:34.085926
+Posto Shell Rio do Sul 2,"Rodovia da Independência, 7771 - Rio do Sul, SC",Gas Station,sc_rio_do_sul_1_3159,-27.195232702834712,-49.66075594782919,2025-10-07T11:26:34.086011
+Posto Shell Rio do Sul 3,"Rua Principal, 8422 - Rio do Sul, SC",Gas Station,sc_rio_do_sul_2_7535,-27.20544734793956,-49.657764450648365,2025-10-07T11:26:34.086083
+Posto Ipiranga Rio do Sul 4,"Rua Getúlio Vargas, 3995 - Rio do Sul, SC",Gas Station,sc_rio_do_sul_3_9521,-27.203845319490465,-49.645178443064424,2025-10-07T11:26:34.086165
+Posto BR Videira,"Rodovia Beira Rio, 943 - Videira, SC",Gas Station,sc_videira_0_2679,-27.01391469550202,-51.136094159330675,2025-10-07T11:26:34.086255
+Posto BR Videira 2,"Rua Central, 2457 - Videira, SC",Gas Station,sc_videira_1_1561,-26.99555654570538,-51.1347917196698,2025-10-07T11:26:34.086331
+Posto Shell Videira 3,"Rodovia Industrial, 6652 - Videira, SC",Gas Station,sc_videira_2_9016,-27.0072796460069,-51.14895255889513,2025-10-07T11:26:34.086408
