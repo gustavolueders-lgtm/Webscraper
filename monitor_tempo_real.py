@@ -1,188 +1,195 @@
 #!/usr/bin/env python3
 """
-Monitor de progresso em tempo real
-Atualiza a cada 30 segundos
+Monitor em tempo real do progresso do scraper
 """
 
-import json
 import os
+import json
 import time
-import re
-from datetime import datetime, timedelta
+import glob
+from datetime import datetime
 
-def extrair_progresso_logs():
-    """Extrai progresso atual dos logs"""
-    
-    current_cell = 0
-    pages_crawled = 0
-    start_time = None
-    
-    try:
-        if not os.path.exists('output/scrapy.log'):
-            return current_cell, pages_crawled, start_time
-        
-        with open('output/scrapy.log', 'r', encoding='utf-8') as f:
-            content = f.read()
-        
-        # Procura por células processadas
-        cell_matches = re.findall(r'cell_index["\']:\s*(\d+)', content)
-        if cell_matches:
-            current_cell = max(int(x) for x in cell_matches)
-        
-        # Conta páginas crawladas
-        page_matches = re.findall(r'Crawled \(\d+\)', content)
-        pages_crawled = len(page_matches)
-        
-        # Procura por tempo de início
-        start_matches = re.findall(r'(\d{4}-\d{2}-\d{2} \d{2}:\d{2}:\d{2})', content)
-        if start_matches:
-            start_time_str = start_matches[0]
-            start_time = datetime.strptime(start_time_str, '%Y-%m-%d %H:%M:%S')
-        
-        return current_cell, pages_crawled, start_time
-        
-    except Exception as e:
-        print(f"   ⚠️ Erro ao ler logs: {e}")
-        return current_cell, pages_crawled, start_time
+def clear_screen():
+    """Limpa a tela"""
+    os.system('cls' if os.name == 'nt' else 'clear')
 
-def carregar_dados_salvos():
-    """Carrega dados salvos do JSON"""
-    
+def count_unique_establishments():
+    """Conta estabelecimentos únicos nos arquivos"""
     try:
-        if os.path.exists('output/fuel_stations_monitored.json'):
-            with open('output/fuel_stations_monitored.json', 'r', encoding='utf-8') as f:
-                data = json.load(f)
-                return data if isinstance(data, list) else []
-        return []
-    except Exception as e:
-        print(f"   ⚠️ Erro ao ler JSON: {e}")
-        return []
-
-def extrair_ultimos_estabelecimentos():
-    """Extrai últimos estabelecimentos dos logs"""
-    
-    try:
-        if not os.path.exists('output/scrapy.log'):
-            return []
+        cell_files = glob.glob('output/cells/cell_*.json')
+        seen_keys = set()
+        total_establishments = 0
         
-        with open('output/scrapy.log', 'r', encoding='utf-8') as f:
-            content = f.read()
-        
-        # Procura por linhas com dados de estabelecimentos
-        pattern = r'🏪 ESTABLISHMENT_DATA: ({.*?})'
-        matches = re.findall(pattern, content)
-        
-        establishments = []
-        for match in matches[-10:]:  # Últimos 10
+        for file_path in cell_files:
             try:
-                # Converte aspas simples para duplas para JSON válido
-                json_str = match.replace("'", '"').replace('None', 'null').replace('True', 'true').replace('False', 'false')
-                data = json.loads(json_str)
-                establishments.append(data)
-            except:
+                with open(file_path, 'r', encoding='utf-8') as f:
+                    data = json.load(f)
+                
+                establishments = data.get('establishments', [])
+                for est in establishments:
+                    name = est.get('name', '').strip()
+                    if not name or len(name) < 3:
+                        continue
+                        
+                    # Filtrar HTML mal extraído
+                    if any(x in name.lower() for x in ['<title>', '<meta', 'google maps', 'acessar o site']):
+                        continue
+                    
+                    lat = est.get('cell_lat', 0)
+                    lon = est.get('cell_lon', 0)
+                    
+                    unique_key = f"{name}_{lat:.4f}_{lon:.4f}"
+                    
+                    if unique_key not in seen_keys:
+                        seen_keys.add(unique_key)
+                        total_establishments += 1
+                        
+            except Exception:
                 continue
         
-        return establishments[-3:]  # Últimos 3
-        
-    except Exception as e:
-        print(f"   ⚠️ Erro ao extrair últimos: {e}")
-        return []
+        return total_establishments, len(cell_files)
+    except Exception:
+        return 0, 0
 
-def formatar_tempo(seconds):
-    """Formata tempo em horas:minutos:segundos"""
-    if seconds is None:
-        return "N/A"
+def get_progress_info():
+    """Obtém informações de progresso"""
+    try:
+        with open('output/progress.json', 'r', encoding='utf-8') as f:
+            progress = json.load(f)
+        return progress
+    except Exception:
+        return {'cells_processed': 0, 'establishments_found': 0, 'timestamp': 'N/A'}
+
+def show_status():
+    """Mostra status único"""
+    now = datetime.now()
+    progress = get_progress_info()
+    unique_establishments, total_files = count_unique_establishments()
     
-    hours = int(seconds // 3600)
-    minutes = int((seconds % 3600) // 60)
-    secs = int(seconds % 60)
+    total_cells = 7904
+    cells_processed = progress.get('cells_processed', 0)
+    progress_percent = (cells_processed / total_cells) * 100
     
-    if hours > 0:
-        return f"{hours}h{minutes:02d}m{secs:02d}s"
-    elif minutes > 0:
-        return f"{minutes}m{secs:02d}s"
-    else:
-        return f"{secs}s"
+    print("STATUS ATUAL - SCRAPER BORRACHARIAS SC")
+    print("=" * 60)
+    print(f"Horario: {now.strftime('%d/%m/%Y %H:%M:%S')}")
+    print(f"Celulas: {cells_processed:,} / {total_cells:,} ({progress_percent:.2f}%)")
+    print(f"Contatos unicos: {unique_establishments:,}")
+    print(f"Arquivos: {total_files:,}")
+    print(f"Saida: output/tire_shops_auto_complete.json")
+    
+    if unique_establishments > 0 and cells_processed > 0:
+        avg_per_cell = unique_establishments / cells_processed
+        estimated_total = avg_per_cell * total_cells
+        print(f"Media: {avg_per_cell:.2f} por celula")
+        print(f"Estimativa: {estimated_total:,.0f} total")
+
+def monitor_continuous():
+    """Monitor contínuo"""
+    print("MONITOR TEMPO REAL - SCRAPER BORRACHARIAS SP")
+    print("Pressione Ctrl+C para sair")
+    print()
+    
+    start_time = datetime.now()
+    
+    try:
+        while True:
+            clear_screen()
+            
+            now = datetime.now()
+            progress = get_progress_info()
+            unique_establishments, total_files = count_unique_establishments()
+            
+            # Dados básicos
+            total_cells = 7904
+            cells_processed = progress.get('cells_processed', 0)
+            progress_percent = (cells_processed / total_cells) * 100
+            last_update = progress.get('timestamp', 'N/A')
+            
+            # Calcular velocidade
+            elapsed = now - start_time
+            if elapsed.total_seconds() > 0 and cells_processed > 0:
+                cells_per_hour = (cells_processed / elapsed.total_seconds()) * 3600
+                remaining_cells = total_cells - cells_processed
+                if cells_per_hour > 0:
+                    hours_remaining = remaining_cells / cells_per_hour
+                else:
+                    hours_remaining = 0
+            else:
+                cells_per_hour = 0
+                hours_remaining = 0
+            
+            # Display
+            print("MONITOR TEMPO REAL - SCRAPER BORRACHARIAS SP")
+            print("=" * 70)
+            print(f"Agora: {now.strftime('%d/%m/%Y %H:%M:%S')}")
+            print(f"Monitorando desde: {start_time.strftime('%H:%M:%S')}")
+            print()
+            
+            print("PROGRESSO PRINCIPAL:")
+            print(f"   Celulas processadas: {cells_processed:,} / {total_cells:,}")
+            print(f"   Progresso: {progress_percent:.2f}%")
+            print(f"   Contatos unicos: {unique_establishments:,}")
+            print(f"   Arquivos gerados: {total_files:,}")
+            print()
+            
+            print("VELOCIDADE:")
+            print(f"   Celulas/hora: {cells_per_hour:.1f}")
+            if hours_remaining > 0:
+                print(f"   Tempo restante: {hours_remaining:.1f} horas")
+            print()
+            
+            print("ARQUIVOS DE SAIDA:")
+            print(f"   Principal: output/tire_shops_auto_complete.json")
+            print(f"   Backup: output/tire_shops_auto_backup.json")
+            print(f"   Progresso: output/progress.json")
+            print(f"   Celulas: output/cells/ ({total_files:,} arquivos)")
+            print()
+            
+            if unique_establishments > 0 and cells_processed > 0:
+                avg_per_cell = unique_establishments / cells_processed
+                estimated_total = avg_per_cell * total_cells
+                print("ESTIMATIVAS:")
+                print(f"   Media por celula: {avg_per_cell:.2f}")
+                print(f"   Total estimado: {estimated_total:,.0f} estabelecimentos")
+                print()
+            
+            print("ULTIMA ATUALIZACAO:")
+            print(f"   {last_update}")
+            print()
+            
+            # Barra de progresso
+            bar_length = 50
+            filled_length = int(bar_length * progress_percent / 100)
+            bar = '#' * filled_length + '.' * (bar_length - filled_length)
+            print(f"[{bar}] {progress_percent:.1f}%")
+            print()
+            
+            print("Pressione Ctrl+C para sair do monitor")
+            
+            # Aguardar 30 segundos
+            time.sleep(30)
+            
+    except KeyboardInterrupt:
+        print("\nMonitor finalizado.")
 
 def main():
-    """Função principal do monitor"""
+    import sys
     
-    print("🚀 MONITOR DE PROGRESSO EM TEMPO REAL")
-    print("=" * 60)
-    print("📊 Atualizações a cada 30 segundos")
-    print("🔄 Pressione Ctrl+C para parar")
-    print("=" * 60)
+    if len(sys.argv) < 2:
+        print("Uso:")
+        print("  python monitor_tempo_real.py status    # Status unico")
+        print("  python monitor_tempo_real.py monitor   # Monitor continuo")
+        return
     
-    while True:
-        try:
-            # Limpa tela (funciona no Windows)
-            os.system('cls' if os.name == 'nt' else 'clear')
-            
-            print("🚀 MONITOR DE PROGRESSO EM TEMPO REAL")
-            print("=" * 60)
-            
-            # Extrai progresso dos logs
-            current_cell, pages_crawled, start_time = extrair_progresso_logs()
-            
-            # Carrega dados salvos
-            establishments = carregar_dados_salvos()
-            
-            # Calcula tempo decorrido
-            elapsed_seconds = None
-            if start_time:
-                elapsed_seconds = (datetime.now() - start_time).total_seconds()
-            
-            elapsed_str = formatar_tempo(elapsed_seconds)
-            
-            # Conta telefones
-            phones_count = sum(1 for est in establishments if est.get('phone'))
-            phone_rate = (phones_count / len(establishments) * 100) if establishments else 0
-            
-            # Calcula taxa de páginas
-            page_rate = 0
-            if elapsed_seconds and elapsed_seconds > 0:
-                page_rate = pages_crawled / (elapsed_seconds / 60)  # páginas por minuto
-            
-            # Mostra status principal
-            print(f"⏰ Tempo: {elapsed_str}")
-            print(f"🗺️ Célula: {current_cell + 1}/7904 ({(current_cell + 1)/7904*100:.1f}%)")
-            print(f"🏪 Estabelecimentos: {len(establishments)}")
-            print(f"📞 Telefones: {phones_count} ({phone_rate:.1f}%)")
-            print(f"📄 Páginas: {pages_crawled} ({page_rate:.1f}/min)")
-            
-            print("\n" + "=" * 60)
-            
-            # Mostra últimos estabelecimentos
-            ultimos = extrair_ultimos_estabelecimentos()
-            if ultimos:
-                print("🏪 ÚLTIMOS ESTABELECIMENTOS COLETADOS:")
-                for i, est in enumerate(ultimos, 1):
-                    name = est.get('name', 'N/A')
-                    phone = est.get('phone', 'Sem telefone')
-                    rating = est.get('rating', 'N/A')
-                    cell_index = est.get('cell_index', 'N/A')
-                    
-                    print(f"   {i}. {name}")
-                    print(f"      📞 {phone}")
-                    print(f"      ⭐ {rating}")
-                    print(f"      🗺️ Célula {cell_index}")
-                    print()
-            else:
-                print("🏪 Aguardando dados...")
-            
-            print("=" * 60)
-            print(f"🔄 Próxima atualização em 30 segundos...")
-            print(f"📊 Status: Spider rodando | VPN ativo | Dados sendo coletados")
-            
-            # Aguarda 30 segundos
-            time.sleep(30)
-            
-        except KeyboardInterrupt:
-            print("\n\n🛑 Monitor interrompido pelo usuário")
-            break
-        except Exception as e:
-            print(f"\n❌ Erro no monitor: {e}")
-            time.sleep(30)
+    command = sys.argv[1]
+    
+    if command == 'status':
+        show_status()
+    elif command == 'monitor':
+        monitor_continuous()
+    else:
+        print(f"Comando desconhecido: {command}")
 
-if __name__ == "__main__":
+if __name__ == '__main__':
     main()

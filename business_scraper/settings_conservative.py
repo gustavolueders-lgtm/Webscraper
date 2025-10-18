@@ -13,7 +13,7 @@ ROBOTSTXT_OBEY = False
 CONCURRENT_REQUESTS = 1  # Apenas 1 requisição simultânea
 CONCURRENT_REQUESTS_PER_DOMAIN = 1
 DOWNLOAD_DELAY = 15  # 15 segundos entre requisições
-RANDOMIZE_DOWNLOAD_DELAY = 10  # Varia entre 5-25 segundos
+RANDOMIZE_DOWNLOAD_DELAY = True  # Varia entre 5-25 segundos
 
 # AutoThrottle (ajuste automático)
 AUTOTHROTTLE_ENABLED = True

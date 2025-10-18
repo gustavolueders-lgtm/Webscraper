@@ -12,10 +12,10 @@ from scrapy_playwright.page import PageMethod
 class TireShopsSpider(scrapy.Spider):
     name = 'tire_shops'
     
-    # Configuração de grid - Santa Catarina COMPLETO
+    # Configuração de grid - São Paulo COMPLETO
     GRID_SIZE_KM = 5
-    LAT_MIN, LAT_MAX = -29.35, -25.95  # Santa Catarina completo
-    LON_MIN, LON_MAX = -53.83, -48.35
+    LAT_MIN, LAT_MAX = -25.3, -19.8  # São Paulo completo
+    LON_MIN, LON_MAX = -53.1, -44.2
     
     SEARCH_TERMS = ["borracharia"]
     

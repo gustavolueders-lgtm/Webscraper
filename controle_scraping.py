@@ -102,7 +102,7 @@ class ControleScraping:
             'scrapy', 'crawl', self.spider_name,
             '-a', f'start_cell={start_cell}',
             '-s', 'DOWNLOAD_DELAY=1',  # Reduzido de 3 para 1
-            '-s', 'RANDOMIZE_DOWNLOAD_DELAY=0.5',  # Variação de 0.5-1.5s
+            '-s', 'RANDOMIZE_DOWNLOAD_DELAY=True',  # Variação aleatória
             '-s', 'CONCURRENT_REQUESTS=2',  # Aumentado de 1 para 2
             '-s', 'CONCURRENT_REQUESTS_PER_DOMAIN=2',
             '-s', 'AUTOTHROTTLE_ENABLED=True',

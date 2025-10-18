@@ -50,7 +50,7 @@ def iniciar_rapido(start_cell=None):
         'scrapy', 'crawl', 'borracharia_resumable',
         '-a', f'start_cell={start_cell}',
         '-s', 'DOWNLOAD_DELAY=1',  # Rápido
-        '-s', 'RANDOMIZE_DOWNLOAD_DELAY=0.5',
+        '-s', 'RANDOMIZE_DOWNLOAD_DELAY=True',
         '-s', 'CONCURRENT_REQUESTS=3',  # Mais concorrência
         '-s', 'CONCURRENT_REQUESTS_PER_DOMAIN=3',
         '-s', 'AUTOTHROTTLE_ENABLED=True',

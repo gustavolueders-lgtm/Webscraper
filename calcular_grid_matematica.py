@@ -13,8 +13,8 @@ def calcular_grid_detalhado():
     
     # Configurações do grid
     GRID_SIZE_KM = 5
-    LAT_MIN, LAT_MAX = -29.35, -25.95
-    LON_MIN, LON_MAX = -53.83, -48.35
+    LAT_MIN, LAT_MAX = -25.3, -19.8
+    LON_MIN, LON_MAX = -53.1, -44.2
     
     print(f"📐 CONFIGURAÇÃO DO GRID:")
     print(f"   🔸 Tamanho da célula: {GRID_SIZE_KM}km × {GRID_SIZE_KM}km = {GRID_SIZE_KM**2} km²")

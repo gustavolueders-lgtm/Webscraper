@@ -1,10 +1,10 @@
-# 🔧 Sistema de Scraping de Borracharias - Santa Catarina v2
+# 🔧 Sistema de Scraping de Borracharias - São Paulo v2
 
-Sistema completo e otimizado para coleta de dados de borracharias em todo o estado de Santa Catarina usando Scrapy + Playwright.
+Sistema completo e otimizado para coleta de dados de borracharias em todo o estado de São Paulo usando Scrapy + Playwright.
 
 ## 🎯 Resultados Obtidos
 
-- **✅ Cobertura**: 100% do estado de Santa Catarina (7.904 células de 5km x 5km)
+- **✅ Cobertura**: 100% do estado de São Paulo (células de 5km x 5km)
 - **🔧 Borracharias**: 2.405 estabelecimentos únicos coletados
 - **📞 Contatos**: 1.885 com telefone (78.4%)
 - **🚫 Deduplicação**: 96.8% de duplicatas removidas (72.215 de 74.620)
@@ -126,9 +126,9 @@ python processar_todos_logs.py
 
 ### **Grid de Cobertura**
 - **Tamanho**: 5km x 5km por célula
-- **Área**: Santa Catarina completo
-- **Coordenadas**: LAT -29.35 a -25.95, LON -53.83 a -48.35
-- **Total**: 7.904 células
+- **Área**: São Paulo completo
+- **Coordenadas**: LAT -25.3 a -19.8, LON -53.1 a -44.2
+- **Total**: Calculando células...
 
 ### **Deduplicação**
 - **Chave única**: nome + telefone (ou nome + endereço se sem telefone)
